@@ -1,8 +1,31 @@
 aid: electronic-payment-exchange-inc
 name: Electronic payment Exchange Inc
-description: 'Electronic payment Exchange Inc is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: payments. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Electronic Payment Exchange (EPX) is a full-stack, PCI-compliant payments
+  platform that has processed card, ACH, and alternative payments for merchants
+  and banks across the United States, Canada, Europe, Latin America, and the
+  Caribbean for more than forty years. Now part of North (North American
+  Bancard), EPX combines the roles of ISO, merchant acquirer, gateway, and
+  front-end and back-end processor under one contract. Its BRIC technology
+  issues a unique token for every transaction so cardholder data never touches
+  the merchant environment. Developers integrate through EPX Hosted Checkout,
+  the Hosted Pay Page, the Browser Post API, and the North EPX Custom Pay REST
+  API, all documented on the North Developer portal, supporting sales,
+  authorizations, captures, refunds, voids, recurring billing, and batch
+  settlement with EMV, tokenization, and encryption throughout.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www.epx.com/app/default/assets/addons/default/epx/epx_theme-theme/resources/853506e8a63744c7bc743bafcdf8072d.gif?v=1784398777
 url: https://raw.githubusercontent.com/api-evangelist/electronic-payment-exchange-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +35,70 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Payments
-apis: []
+- Payment Processing
+- Merchant Acquiring
+- Payment Gateway
+- Tokenization
+- Credit Card Processing
+- ACH
+- Fintech
+apis:
+- name: EPX Payments API
+  description: >-
+    EPX card-not-present and card-present payment processing surface — Hosted
+    Checkout, Hosted Pay Page, Browser Post API, and the North EPX Custom Pay
+    REST API — handling sales, authorizations, captures, refunds, voids,
+    recurring billing, and batch settlement, with BRIC tokenization for every
+    transaction.
+  humanURL: https://developer.north.com/
+  baseURL: https://secure.epx.com
+  tags:
+  - Payments
+  - Payment Processing
+  - Tokenization
+  properties:
+  - type: Authentication
+    url: authentication/electronic-payment-exchange-inc-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/electronic-payment-exchange-inc-domain-security.yml
+- type: DeveloperPortal
+  url: https://developer.north.com/
+- type: Documentation
+  url: https://developer.north.com/products/online/epx-hosted-checkout/integration-guide
+- type: APIReference
+  url: https://developer.north.com/supplemental-resources/epx-data-dictionary/transaction-request-fields
+- type: GettingStarted
+  url: https://developer.north.com/products/online/epx-hosted-checkout/integration-guide
+- type: Blog
+  url: https://developer.north.com/blog
+- type: Support
+  url: https://www.epx.com/contact
+- type: Login
+  url: https://websuite.epx.com/
+- type: TermsOfService
+  url: https://www.epx.com/terms
+- type: PrivacyPolicy
+  url: https://www.epx.com/privacy-policy
+- type: StatusPage
+  url: https://trust.paymentshub.com/
+- type: Lifecycle
+  url: lifecycle/electronic-payment-exchange-inc-lifecycle.yml
+- type: Authentication
+  url: authentication/electronic-payment-exchange-inc-authentication.yml
+- type: LLMsTxt
+  url: llms/electronic-payment-exchange-inc-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

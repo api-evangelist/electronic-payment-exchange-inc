@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://developer.north.com/
+versioning:
+  scheme: product-surface
+  notes: >-
+    EPX exposes distinct integration products (Hosted Checkout, Hosted Pay
+    Page, Browser Post API, Custom Pay REST API) rather than a single versioned
+    REST base path. No public dated API version identifier or deprecation
+    policy page was found.
+status_page: https://trust.paymentshub.com/
+status_page_provider: Atlassian Statuspage
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation/sunset policy located.
+sla:
+  url: null
+deprecated_operations: []
