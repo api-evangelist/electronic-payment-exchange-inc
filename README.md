@@ -64,6 +64,56 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Electronic payment Exchange Inc is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the enrichment pipeline.
+Electronic Payment Exchange (EPX) is a full-stack, PCI-compliant payments platform that has processed card, ACH, and alternative payments for merchants and banks across the United States, Canada, Europe, Latin America, and the Caribbean for more than forty years. Now part of North (North American Bancard), EPX combines the roles of ISO, merchant acquirer, gateway, and front-end and back-end processor under one contract. Its BRIC technology issues a unique token for every transaction so cardholder data never touches the merchant environment. Developers integrate through EPX Hosted Checkout, the Hosted Pay Page, the Browser Post API, and the North EPX Custom Pay REST API, all documented on the North Developer portal, supporting sales, authorizations, captures, refunds, voids, recurring billing, and batch settlement with EMV, tokenization, and encryption throughout.
 
-Backed by: insight-partners
+**Areas:** Company · Payments · Payment Processing · Merchant Acquiring · Payment Gateway · Tokenization · Credit Card Processing · ACH · Fintech
+
+## Electronic payment Exchange Inc on APIs.io
+
+Everything profiled for Electronic payment Exchange Inc is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/electronic-payment-exchange-inc/](https://apis.io/providers/electronic-payment-exchange-inc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [EPX Payments API](https://apis.io/apis/electronic-payment-exchange-inc/epx-payments-api/) — EPX card-not-present and card-present payment processing surface — Hosted Checkout, Hosted Pay Page, Browser Post API, and the North EPX Custom Pay REST API…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Electronic Payment Exchange Inc Authentication](https://apis.io/security/electronic-payment-exchange-inc/electronic-payment-exchange-inc-authentication/)
+- [Electronic Payment Exchange Inc Domain Security](https://apis.io/security/electronic-payment-exchange-inc/electronic-payment-exchange-inc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Documentation](https://developer.north.com/products/online/epx-hosted-checkout/integration-guide)
+- [Getting started](https://developer.north.com/products/online/epx-hosted-checkout/integration-guide)
+- [API reference](https://developer.north.com/supplemental-resources/epx-data-dictionary/transaction-request-fields)
+- [Support](https://www.epx.com/contact)
+- [Blog](https://developer.north.com/blog)
+- [Terms of service](https://www.epx.com/terms)
+- [Privacy policy](https://www.epx.com/privacy-policy)
+- [Status](https://trust.paymentshub.com/)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Electronic payment Exchange Inc: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/electronic-payment-exchange-inc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
